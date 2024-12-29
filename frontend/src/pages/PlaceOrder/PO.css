@@ -1,0 +1,32 @@
+.p-o{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 15px;
+}
+.p-o-l{
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+.p-o-l .title{
+    font-size: 30px;
+    font-weight :600px; ;
+    margin-bottom: 50px;
+}
+.p-o-l input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(41, 39, 39);
+    outline-color: tomato;
+    border-radius: 4px;
+}
+.p-o-l .multi-f{
+    display: flex;
+    gap: 10px;
+}
+.p-o-r{
+    width: 100%;
+    max-width: max(40%, 500px);
+}

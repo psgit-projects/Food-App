@@ -1,0 +1,82 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .login-popup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login-inputs input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .login-inputs button {
+    padding: 10px;
+    background: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-inputs button:hover {
+    background: rgb(137, 42, 42)
+  }
+  
+  .login-terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .login-terms p {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .toggle-step span {
+    color: tomato;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-step span:hover {
+    color: tomato;
+  }
+  
