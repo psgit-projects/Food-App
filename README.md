@@ -17,10 +17,10 @@ The app is built with modern web technologies and follows a clean, responsive de
 
 ## Technologies Used
 - **Frontend**: React.js, HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Express.js (if applicable)
-- **Database**: MongoDB (if applicable)
-- **State Management**: Redux (if applicable)
-- **UI/UX**: Material-UI (or any other UI framework)
-- **Authentication**: JWT or OAuth (if applicable)
+- **Backend**: Node.js, Express.js 
+- **Database**: MongoDB
+- **State Management**: Redux
+- **UI/UX**: Material-UI 
+- **Authentication**: JWT 
 - **Payment Integration**: Stripe or any other payment API 
 
